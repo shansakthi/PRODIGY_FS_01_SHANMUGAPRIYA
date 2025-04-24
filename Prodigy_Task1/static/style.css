@@ -1,0 +1,95 @@
+/* Overall body styling */
+body {
+    background-color: #f8c8dc; /* baby pink */
+    font-family: 'Poppins', sans-serif;
+    color: #6d214f; /* dark pink for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #6d214f; /* dark pink */
+}
+
+/* Paragraph and label styling */
+p, label {
+    color: #6d214f;
+}
+
+/* Form input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    background-color: #fff0f5; /* very light pink/white */
+    border: 1px solid #f5b5c8;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #6d214f;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #fff0f5; /* pale pinkish white */
+    color: #6d214f; /* dark pink text */
+    border: 2px solid #6d214f;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #f5b5c8; /* slightly deeper baby pink on hover */
+    color: #fff;
+}
+
+/* Container style */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ffe6ee; /* soft pink background for sections */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(109, 33, 79, 0.2);
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #ffe6ee;
+    padding: 10px 20px;
+    border-bottom: 2px solid #f5b5c8;
+}
+
+.navbar a {
+    color: #6d214f;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #d63384;
+}
+
+/* Center text utility */
+.text-center {
+    text-align: center;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #6d214f;
+    font-size: 14px;
+}
+
+/* Optional: rounded image styling */
+img.rounded {
+    border-radius: 50%;
+}
